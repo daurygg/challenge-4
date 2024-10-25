@@ -155,3 +155,22 @@ font-size: 13px;
 .nutrition-row p {
     margin: 10px 0;
 } 
+
+
+@media (max-width: 375px) {
+   
+ 
+    .container{       
+        background-color: var(--color-white);   
+        height: 100%;    
+        width: 100%;              
+        margin:auto;   
+           padding: 0px;     
+        border-radius: 0px;
+        gap: 10px
+        }  
+        
+        .container-responsive{
+            padding: 40px;
+        }
+}
