@@ -156,6 +156,14 @@ font-size: 13px;
     margin: 10px 0;
 } 
 
+footer {
+    background-color: var(--color-Stone-100);
+    width: 100%;
+    font-family: "Young Serif",serif;
+    font-weight: 100;
+    
+}
+
 
 @media (max-width: 375px) {
    
@@ -169,6 +177,13 @@ font-size: 13px;
         border-radius: 0px;
         gap: 10px
         }  
+        footer {
+            background-color: var(--color-white);
+            width: 100%;
+            font-family: "Young Serif",serif;
+            font-weight: 100;
+            
+        }
         
         .container-responsive{
             padding: 40px;
