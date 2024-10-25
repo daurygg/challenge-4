@@ -16,7 +16,7 @@ body {
 display: grid;
 place-items: center; /* Centra el contenedor tanto horizontal como verticalmente */
 background-color: var(--color-Stone-100);
-height: 100vh; /* Asegura que el body ocupe toda la altura de la ventana */
+height: 100%; /* Asegura que el body ocupe toda la altura de la ventana */
 margin: 0;
 
 }
