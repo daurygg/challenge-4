@@ -1,0 +1,157 @@
+:root {
+    --desktop-view-size: 1440px;
+    --mobile-view-size: 375px;
+    --paragraph-font-size: 16px;
+    --color-white: hsl(0, 0%, 100%);
+    --color-Stone-100: hsl(30, 54%, 90%);
+    --color-Stone-150: hsl(30, 18%, 87%);
+    --color-Stone-600: hsl(30, 10%, 34%);
+    --color-Stone-900: hsl(24, 5%, 18%);
+    --color-Brown-800: hsl(14, 45%, 36%);
+    --color-Rose-800: hsl(332, 51%, 32%);
+    --color-Rose-50: hsl(330, 100%, 98%);
+  }
+
+body {
+display: grid;
+place-items: center; /* Centra el contenedor tanto horizontal como verticalmente */
+background-color: var(--color-Stone-100);
+height: 100vh; /* Asegura que el body ocupe toda la altura de la ventana */
+margin: 0;
+
+}
+.container {
+display: grid;
+grid-column: 3;
+background-color: var(--color-white);   
+height: 100vh;    
+width: 530px;
+height: 100%;
+padding: 20px;
+margin:40px;
+border-radius: 13px;
+gap: 10px
+}
+
+h2 {
+    font-family: "Young Serif";
+    font-weight: 500;  
+    color: var(--color-Brown-800);
+    font-size: 22px;
+}
+
+img{
+border-radius: 13px;
+}
+
+h1:first-of-type{
+font-family: "Young Serif";
+font-weight: 400;
+}
+
+p:first-of-type {
+font-size: 11px;
+color: var(--color-Stone-600);
+font-family: "Young Serif";
+ 
+}
+
+.preparation{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+gap: 10px;
+width: 100%;
+background-color: var(--color-Rose-50);
+border-radius: 10px;
+padding: 20px;
+font-family: "Outfit";
+font-weight: 400;
+color: var(--color-Rose-800);
+}
+.preparation li {
+list-style: disc;
+margin-left: 20px;
+margin-bottom: 0.2rem;
+}
+
+.preparation span,.ingredients span{
+color: var(--color-Stone-600);
+margin-left: 10px;
+}
+.preparation > *{
+font-size: 12px;
+}
+.ingredients {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+font-size: 12px;
+gap: 10px;
+color: var(--color-Brown-800);
+font-family: "Outfit";
+font-weight: 400;
+}
+.ingredients li {    
+list-style-type: disc;
+margin-left: 15px;
+margin-bottom: 6px;
+}
+
+.line {
+width: 100%;
+height: 0.06px;
+border-radius: 10px;
+background-color: var(--color-Stone-600);
+}
+.instructions {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+gap: 10px;
+font-size: 12px;
+color: var(--color-Brown-800);
+font-family: "Outfit";
+font-weight: 700;
+
+
+}
+.instructions span {
+    color: var(--color-Stone-600); 
+    font-weight: 500;  
+}
+
+.instructions li {
+list-style-type: decimal;
+margin-left: 20px; 
+padding-left: 20px;
+margin-bottom: 0.5rem;
+}
+
+.calories, .carbs, .protein, .fat {
+display: grid;
+grid-template-columns: repeat(2,1fr);
+gap: 10px;
+
+font-family: "Outfit";
+font-size: 13px;
+}
+
+.value {
+    color: var(--color-Brown-800);
+    font-weight: 700;
+
+}
+.label {
+    margin-left: 30px;
+    font-weight: 400;
+    color: var(--color-Stone-600);
+}
+
+.line {
+    margin: 10px 0px;
+}
+
+.nutrition-row p {
+    margin: 10px 0;
+} 
